@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreshCart - About Us</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Header */
+header{
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+    color:#2e7d32;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+}
+
+.icons{
+    color:#2e7d32;
+    font-size:18px;
+}
+
+/* About Section */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+.about{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.about-text{
+    width:50%;
+}
+
+.about-text h1{
+    font-size:42px;
+    margin-bottom:20px;
+    color:#222;
+}
+
+.about-text p{
+    font-size:18px;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.about img{
+    width:45%;
+    height:320px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+/* Stats Section */
+.stats{
+    margin-top:20px;
+    background:#fff;
+    padding:30px 20px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+
+.stat i{
+    font-size:35px;
+    color:#2e7d32;
+}
+
+.stat h2{
+    margin-top:10px;
+    font-size:28px;
+    color:#222;
+}
+
+.stat p{
+    color:#666;
+    font-size:14px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    color:#555;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.about{
+    flex-direction:column;
+}
+
+.about-text,
+.about img{
+    width:100%;
+}
+
+.stats{
+    flex-wrap:wrap;
+    gap:20px;
+}
+}
+</style>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">FreshCart</div>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="product-details.html">Categories</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<div class="icons">
+<i class="fas fa-search"></i>
+&nbsp;&nbsp;
+<i class="fas fa-cart-shopping"></i>
+</div>
+</header>
+
+<div class="container">
+
+<div class="about">
+
+<div class="about-text">
+<h1>About Us</h1>
+
+<p>
+Welcome to FreshCart! We are dedicated to providing you
+with the freshest groceries and daily essentials at the
+best prices.
+</p>
+
+<p>
+Our mission is to make your shopping experience easy,
+convenient, and enjoyable.
+</p>
+</div>
+
+<img src="store.png"
+alt="Fresh Grocery Store">
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<i class="fa-solid fa-box-open"></i>
+<h2>500+</h2>
+<p>Products</p>
+</div>
+
+<div class="stat">
+<i class="fa-regular fa-user"></i>
+<h2>1000+</h2>
+<p>Happy Customers</p>
+</div>
+
+<div class="stat">
+<i class="fa-solid fa-truck"></i>
+<h2>30+</h2>
+<p>Delivery Partners</p>
+</div>
+
+<div class="stat">
+<i class="fa-solid fa-location-dot"></i>
+<h2>10+</h2>
+<p>Cities</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© FreshCart
+</footer>
+
+</body>
+</html>
