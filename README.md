@@ -95,7 +95,7 @@ FreshCart/
 ### Clone the Repository
 
 ```bash
-
+https://github.com/Vineela33/frontend_Project
 ```
 
 ### Open Project
